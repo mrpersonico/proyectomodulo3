@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelPerfect Studio - Componente BEM</title>
+  <!-- Dejamos únicamente el enlace a style.css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="main-container">
+    <article class="course-card course-card--featured">
+      <div class="course-card__header">
+        <span class="course-card__badge">Destacado</span>
+        <!-- Cambiamos la URL de la imagen a una funcional -->
+        <img src="https://picsum.photos/350/200" alt="Curso Frontend" class="course-card__image">
+      </div>
+      <div class="course-card__body">
+        <h2 class="course-card__title">Desarrollo Web Frontend Pro</h2>
+        <p class="course-card__description">
+          Aprende a modularizar tus estilos con SASS y la metodología BEM para construir interfaces escalables.
+        </p>
+      </div>
+      <div class="course-card__footer">
+        <span class="course-card__price">$49.990</span>
+        <button class="button button--primary">Inscribirse</button>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
